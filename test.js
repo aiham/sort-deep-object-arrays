@@ -1,14 +1,14 @@
 'use strict';
 
-const test = require('tape'),
+var test = require('tape'),
     sortDeep = require('./index');
 
 function compare(a, b) {
     return JSON.stringify(a) === JSON.stringify(b);
 }
 
-test('basic objects', t => {
-    let a = {a: 1, b: 2, c: 3},
+test('basic objects', function (t) {
+    var a = {a: 1, b: 2, c: 3},
         b = {b: 2, a: 1, c: 3},
         c = {c: 3, a: 1, b: 2};
 
@@ -23,8 +23,8 @@ test('basic objects', t => {
     t.end();
 });
 
-test('basic arrays', t => {
-    let a = [1, 2, 3],
+test('basic arrays', function (t) {
+    var a = [1, 2, 3],
         b = [3, 1, 2],
         c = [2, 1, 3];
 
@@ -39,8 +39,8 @@ test('basic arrays', t => {
     t.end();
 });
 
-test('array of objects', t => {
-    let a = [
+test('array of objects', function (t) {
+    var a = [
             {
                 a: 1,
                 b: 2,
@@ -103,8 +103,8 @@ test('array of objects', t => {
     t.end();
 });
 
-test('complex object', t => {
-    let a = {
+test('complex object', function (t) {
+    var a = {
             a: 1,
             b: 'foo',
             c: [3, 2, 1],
