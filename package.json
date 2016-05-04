@@ -6,12 +6,24 @@
   "scripts": {
     "test": "node test.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aiham/sort-deep-object-arrays.git"
+  },
   "keywords": [
-    "sort", "deep", "recursive", "array", "object"
+    "sort",
+    "deep",
+    "recursive",
+    "array",
+    "object"
   ],
-  "author": "Aiham Hammami <aiham@aiham.net>",
+  "author": "Aiham Hammami <aiham@aiham.net> (http://www.aiham.net/)",
   "license": "MIT",
-  "dependencies": {
+  "bugs": {
+    "url": "https://github.com/aiham/sort-deep-object-arrays/issues"
+  },
+  "homepage": "https://github.com/aiham/sort-deep-object-arrays",
+  "devDependencies": {
     "tape": "^4.5.1"
   }
 }
