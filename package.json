@@ -1,0 +1,17 @@
+{
+  "name": "sort-deep-object-arrays",
+  "version": "1.0.0",
+  "description": "Sort objects and arrays of objects nested deeply within other objects or arrays",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "sort", "deep", "recursive", "array", "object"
+  ],
+  "author": "Aiham Hammami <aiham@aiham.net>",
+  "license": "MIT",
+  "dependencies": {
+    "tape": "^4.5.1"
+  }
+}
