@@ -16,6 +16,12 @@ Install as a local dependency for your project:
 npm install --save sort-deep-object-arrays
 ```
 
+Run in command line
+
+```js
+bin/sort-deep-object-arrays.js input-json-file
+```
+
 Require and use it in your code:
 
 ```js

@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Sort objects and arrays of objects nested deeply within other objects or arrays",
   "main": "index.js",
+  "bin": "bin/sort-deep-object-arrays.js",
   "scripts": {
     "test": "node test.js"
   },
