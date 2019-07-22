@@ -18,7 +18,7 @@ npm install --save sort-deep-object-arrays
 
 Run in command line
 
-```js
+```sh
 bin/sort-deep-object-arrays.js input-json-file
 ```
 
