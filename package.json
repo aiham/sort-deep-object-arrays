@@ -1,11 +1,12 @@
 {
   "name": "sort-deep-object-arrays",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Sort objects and arrays of objects nested deeply within other objects or arrays",
   "main": "index.js",
   "bin": "bin/sort-deep-object-arrays.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "format": "prettier --write --single-quote *.js"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
   },
   "homepage": "https://github.com/aiham/sort-deep-object-arrays",
   "devDependencies": {
-    "tape": "^4.5.1"
+    "prettier": "^1.18.2",
+    "tape": "^4.11.0"
   }
 }

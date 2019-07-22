@@ -13,21 +13,21 @@ Sort objects and arrays of objects nested deeply within other objects or arrays
 Install as a local dependency for your project:
 
 ```sh
-npm install --save sort-deep-object-arrays
+yarn add sort-deep-object-arrays
 ```
 
 Run in command line
 
 ```sh
-bin/sort-deep-object-arrays.js input-json-file
+npx sort-deep-object-arrays /path/to/input/file.json
 ```
 
 Require and use it in your code:
 
 ```js
-var sortDeepObjectArrays = require('sort-deep-object-arrays');
+const sortDeepObjectArrays = require('sort-deep-object-arrays');
 
-var myUnsortedObject = {
+const myUnsortedObject = {
     b: 2,
     a: 1,
     d: [3, 5, 1],
@@ -51,7 +51,7 @@ var myUnsortedObject = {
     ]
 };
 
-var mySortedObject = sortDeepObjectArrays(myUnsortedObject);
+const mySortedObject = sortDeepObjectArrays(myUnsortedObject);
 
 console.log(JSON.stringify(mySortedObject, null, 2));
 ```
@@ -91,3 +91,5 @@ This should output:
 ## Tests
 
 Run tests with `npm test`. Written in tape. Automatically tested using [Travis CI](https://travis-ci.org/aiham/sort-deep-object-arrays)
+
+Tests run against Node 0.12, 4, 6, 8, 10 and 12.
