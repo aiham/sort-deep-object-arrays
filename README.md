@@ -1,3 +1,5 @@
+**Note:** Not maintained
+
 # sort-deep-object-arrays
 
 [![NPM version](https://badge.fury.io/js/sort-deep-object-arrays.svg)](http://badge.fury.io/js/sort-deep-object-arrays) [![Travis-CI](https://travis-ci.org/aiham/sort-deep-object-arrays.svg?branch=master)](https://travis-ci.org/aiham/sort-deep-object-arrays)
